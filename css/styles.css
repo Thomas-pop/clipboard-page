@@ -1,0 +1,135 @@
+
+body{margin:0;padding:0;}
+h1,h2,h3{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+  font-size:41px;
+  padding: 30px 0 18px;
+  margin-block-start:0;
+  margin-block-end:0;
+}
+.adjust {font-size: 40px; margin:100px auto 5px;}
+
+p{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight:400;
+  font-size: 19px;
+  width:48%;
+  padding: 0 0 50px 348px;
+  margin-block-start:0;
+  margin-block-end:0;
+  color:#8f8f8f;
+}
+ button{padding: 0 20px;}
+
+a{text-decoration: none; color:#8f8f8f; line-height: 2;}
+a:hover{color:#3e8e41;}
+
+.header{
+  padding:0;
+  text-align: center;
+  background-image: url("C:/Users/THOMAS POP/Documents/Web dev challenge/Clip board/clipboard-landing-page-master/images/bg-header-desktop.png");
+}
+ .header-logo{padding-top:120px;}
+
+.header2{background-color: #fff;}
+.paragraph2{font-size: 16px;line-height: 1.8;}
+.functions {text-align: left;margin-top:50px;}
+.paragraph3{width: auto;padding:0 200px 0 0;font-size: 16px;line-height: 2;}
+.small-heading{font-size: 25px;padding:70px 0 5px;}
+
+.comp-image{width: 70%;padding: 20px;}
+.everywhere{margin-top:100px;text-align: center;}
+#Access{margin-top:0;}
+
+.device-image{width:70%; padding:20px;}
+.workflow{text-align: center;}
+.workflow-heading{font-size:32px;margin:0 40px;}
+.call-out-container {max-width:1400px;margin:30px 50px;}
+.call-out{padding:20px;box-sizing: border-box;margin-bottom:20px;flex-basis:30%;text-align: center;}
+
+.icon-heading{font-size: 25px;padding: 45px 0 5px;}
+
+.padd{padding:10px;}
+.press{
+  max-width:1400px;
+  margin:150px 50px 0;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.press-logo{width:200px;height: 100px;text-align: center;margin-top: 20px;}
+
+.foot-social{background-color: #f4f4f4;}
+
+.logo-width{width:80%;}
+.foot-item{padding: 0;width:150px;font-size: 17px;}
+.icon{width:50px;height:50px;margin:30px 0 0;}
+.fab:hover{color:#006dba;}
+
+.logo-width{width:60px;}
+
+ .button {
+   font-family: 'Bai Jamjuree', sans-serif;
+   background-color: #4CAF50;
+  display: inline-block;
+  padding: 20px 50px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  margin: 0 10px;
+}
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {background-color: #008CBA;}
+.button2:hover {background-color: #006dba;}
+
+.button2:active {
+  background-color: #006dba;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+@media (min-width:900px){
+  .call-out-container{display:flex;justify-content: space-between;}
+  .comp-image{width:50%; margin-right: 120px; float: left;}
+  .header2 >h1{display:none;}
+  .adjust{font-size: 32px;margin:140px auto 5px;}
+  .workflow-heading{font-size: 32px;margin: auto;}
+  .device-image{margin:60px auto 0;width: 60%;}
+  .foot{width:100px; height:100px; margin:20px 30px;}
+  .foot-social{margin:150px 0 0; justify-content: space-around;display:flex;background-color: #f4f4f4;}
+  .foot-divs{display:flex}
+  .social-icons{justify-content: space-around;display:flex;flex-wrap:wrap;margin-left: 200px;}
+
+}
+
+@media (max-width:900px){
+  .header >h1{display:none;}
+  .functions{text-align:center;}
+  .header-logo{padding-top:100px;}
+  .button{padding: 20px 100px; border-radius:40px; margin:17px;}
+   .paragraph2{font-size:21px;}
+   .paragraph3{width:84%; padding:0 30px 30px; line-height: 2; font-size: 21px;}
+  h1{font-size: 36px; padding:50px 60px 20px;}
+  p{width:84%; padding:0 30px 30px; line-height: 2; font-size: 21px;}
+  .foot-divs{text-align: center; margin:100px 0 20px}
+  .logo-width{width:50px;}
+  .foot{padding-top:30px;}
+  .social-icons{margin-left: 170px;display:flex;}
+
+}
+
+.attribution {font-size: 12px;text-align: center;color:#8f8f8f;background-color: #f4f4f4;}
+.attribution a {color: hsl(228, 45%, 44%);}
